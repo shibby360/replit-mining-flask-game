@@ -1,0 +1,12 @@
+* {
+  font-family: sans-serif;
+}
+h3 {
+  margin: 0px;
+}
+th, td {
+  border: 2px black solid;
+}
+table {
+  margin: 10px;
+}

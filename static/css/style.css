@@ -1,0 +1,11 @@
+* {
+  font-family: sans-serif;
+}
+
+body.dark {
+  background-color: black;
+  color: white;
+}
+#themetoggle {
+  float: right;
+}

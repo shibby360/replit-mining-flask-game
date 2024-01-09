@@ -1,0 +1,86 @@
+:root {
+  --size: 150px;
+  --craftopentime: 4s;
+  --craftscreensize: 300px;
+}
+#gameboard {
+  width: var(--size);
+  height: var(--size);
+  position: absolute;
+  inset: 0;
+  border: 3px blue solid;
+}
+#assets {
+  fill: green;
+  width: 30px;
+  height: 30px;
+}
+#blockshower > div {
+  position: absolute;
+  top: calc(var(--size) + 30px);
+}
+#blockshower > div > img {
+  width: 60px;
+  height: 60px;
+  border: 3px black solid;
+}
+.blkamnt {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  margin: 0;
+  padding: 5px;
+  background-color: white;
+  border: 3px black solid;
+}
+#grass {
+  left: 0px;
+}
+#dirt {
+  left: 65px;
+}
+#wood {
+  left: 130px;
+}
+#tocraft {
+  top: calc(var(--size) + 120px);
+  left: 10px;
+  position: absolute;
+}
+#craftscreen {
+  width: var(--craftscreensize);
+  height: calc(var(--craftscreensize)/2);
+  display: none;
+  position: absolute;
+  top: calc(var(--size) + 140px);
+  left: 10px;
+  border: 2px black groove;
+  padding: 5px;
+}
+#itemslistdiv {
+  position: absolute;
+  top: 0;
+  left: calc(var(--size) + 30px);
+}
+#itemslist {
+  list-style-type: none;
+}
+#savebtn {
+  position: absolute;
+  top: calc(var(--size) + 120px);
+  left: 70px;
+}
+@keyframes extend {
+  from {
+    width: 0px;
+    height: 0px;
+  }
+  to {
+    width: var(--craftscreensize);
+    height: var(--craftscreensize);
+  }
+}
+.craftanimate {
+  animation-name: extend;
+  animation-duration: var(--craftopentime);
+}

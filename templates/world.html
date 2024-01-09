@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>World</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/world.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/craft.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+  <svg id="gameboard">
+    <image href="{{ url_for('static', filename='imgs/firefighterchad.png') }}" id="player"></image>
+<!--     Svg editor: https://svgedit.netlify.app/editor/index.html -->
+  </svg>
+  <div id="blockshower">
+    <div id="grass" class="showingblocks">
+      <img src="{{ url_for('static', filename='imgs/grassblock.svg') }}">
+      <p id="amntgrass" class="blkamnt">0</p>
+    </div>
+    <div id="dirt" class="showingblocks">
+      <img src="{{ url_for('static', filename='imgs/dirtblock.svg') }}">
+      <p id="amntdirt" class="blkamnt">0</p>
+    </div>
+    <div id="wood" class="showingblocks">
+      <img src="{{ url_for('static', filename='imgs/woodblock.svg') }}">
+      <p id="amntwood" class="blkamnt">0</p>
+    </div>
+  </div>
+  <button id="tocraft">Craft ↓</button>
+  <div id='craftscreen'>
+    <table id="crafter">
+      <thead>
+        <tr>
+          <th>Item name</th>
+          <th>Materials</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class='craftable' id='animaltrap'>
+          <td class='name'>Animal trap</td>
+          <td class='materials'>5 grass, 5 dirt</td>
+        </tr>
+        <tr class="craftable" id="sword">
+          <td class='name'>Sword</td>
+          <td class='materials'>15 dirt</td>
+        </tr>
+      </tbody>
+    </table>
+  <button id='craft'>Craft</button>
+  </div>
+  <div id='itemslistdiv'>
+    <ul id='itemslist'>
+    </ul>
+  </div>
+  <button id='savebtn'>Save progress(ctrl+s)</button>
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+  <script src="{{ url_for('static', filename='js/hammer.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/localstoragesave.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/world.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/craft.js') }}"></script>
+
+ <!--
+This script places a badge on your repl's full-browser view back to your repl's cover page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green, teal, blue, blurple, magenta, pink!
+-->
+<script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>

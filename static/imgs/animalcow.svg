@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <g class="layer">
+  <title>Layer 1</title>
+  <ellipse cx="87.5" cy="227.3" fill="#e5e5e5" id="svg_2" rx="81" ry="58.3" stroke="#000000" stroke-opacity="0"/>
+  <rect fill="#e5e5e5" height="115" id="svg_3" rx="32" ry="32" stroke="#000000" stroke-opacity="0" width="280" x="159.5" y="171"/>
+  <rect fill="#e5e5e5" height="188" id="svg_4" stroke="#000000" stroke-opacity="0" width="91" x="183.5" y="278"/>
+  <rect fill="#e5e5e5" height="172" id="svg_5" stroke="#000000" stroke-opacity="0" width="105" x="308.5" y="286"/>
+  <path d="m431.5,219.49l43.7,-78.49l35.8,32.58l-77.92,84.42l-1.58,-38.51z" fill="#e5e5e5" id="svg_6" stroke="#000000" stroke-opacity="0"/>
+  <ellipse cx="47" cy="198.5" fill="#000000" id="svg_7" rx="8.5" ry="8.5" stroke="#000000" stroke-opacity="0"/>
+  <ellipse cx="106.5" cy="197.5" fill="#000000" id="svg_8" rx="8.5" ry="8.5" stroke="#000000" stroke-opacity="0"/>
+  <path d="m52.5,236c2.64,2.42 3.32,2.96 4.06,3.54c0.39,0.31 1.23,0.94 2.1,1.63c0.92,0.71 1.38,1.08 1.85,1.45c0.92,0.72 1.37,1.08 2.65,2.05c0.39,0.29 1.13,0.82 1.79,1.33c0.64,0.5 1.55,1.32 2.14,1.97c0.61,0.67 0.89,1.04 1.5,1.73c0.88,0.99 1.49,1.55 2.09,2.02c0.56,0.44 1.63,1.14 2.35,1.52c0.79,0.42 1.75,0.63 2.35,0.93c0.84,0.43 1.33,1.05 2.12,1.83c0.6,0.59 1.16,1.17 1.98,1.98c0.5,0.49 1.36,0.88 2.23,1.31c0.71,0.35 1.56,0.82 2.15,1.01c0.96,0.31 1.63,0.42 2.59,0.9c0.89,0.44 1.66,0.8 2.56,0.8c0.9,0.01 1.86,0.14 2.7,-0.28c0.66,-0.33 1.49,-0.81 1.77,-1.57c0.37,-0.96 1.05,-1.46 1.53,-2.17c0.53,-0.79 1.01,-1.45 1.6,-2.08c0.55,-0.59 0.88,-1.52 1.33,-2.3c0.41,-0.72 0.4,-1.64 0.66,-2.4c0.3,-0.89 0.83,-1.64 1.44,-2.22c0.63,-0.61 1.13,-1.33 1.78,-1.87c0.75,-0.62 1.21,-1.35 1.9,-1.94c0.65,-0.55 0.9,-1.41 1.6,-1.88c0.71,-0.48 1.62,-0.72 2.37,-1.45c0.49,-0.48 1,-1.02 1.81,-1.81c0.6,-0.58 1.54,-0.88 2.02,-1.54c0.51,-0.69 0.79,-1.61 1.08,-2.28c0.38,-0.86 0.69,-1.71 1.27,-2.5c0.5,-0.67 1.48,-0.87 1.64,-1.7l0.22,-0.88" fill="none" id="svg_9" stroke="#000000"/>
+  <path d="m57.5,176c0,0 -6,-28 -6.5,-28c-0.5,0 -38.5,1 -39,1c-0.5,0 13.5,20 13,20c-0.5,0 32.5,7 32.5,7z" fill="#e5e5e5" id="svg_11" stroke="#000000" stroke-opacity="0"/>
+  <path d="m145.26,174.5c0,0 -6,-28 -6.5,-28c-0.5,0 -38.5,1 -39,1c-0.5,0 13.5,20 13,20c-0.5,0 32.5,7 32.5,7z" fill="#e5e5e5" id="svg_12" stroke="#000000" stroke-opacity="0" transform="rotate(44.5265 122.5 160.5)"/>
+  <ellipse cx="189.5" cy="188" fill="#ffffff" id="svg_13" rx="14" ry="13" stroke="#000000" stroke-opacity="0"/>
+  <ellipse cx="351.5" cy="181.5" fill="#ffffff" id="svg_14" rx="14" ry="13" stroke="#000000" stroke-opacity="0"/>
+  <ellipse cx="331.5" cy="341.5" fill="#ffffff" id="svg_15" rx="14" ry="13" stroke="#000000" stroke-opacity="0"/>
+  <ellipse cx="265.5" cy="224.5" fill="#ffffff" id="svg_16" rx="14" ry="13" stroke="#000000" stroke-opacity="0"/>
+  <ellipse cx="240.5" cy="186.5" fill="#ffffff" id="svg_17" rx="14" ry="13" stroke="#000000" stroke-opacity="0"/>
+  <ellipse cx="210" cy="438.5" fill="#000000" id="svg_18" rx="14.5" ry="12.5" stroke="#000000" stroke-opacity="0" transform="matrix(1 0 0 1 0 0)"/>
+  <ellipse cx="193.5" cy="222.5" fill="#000000" id="svg_19" rx="14.5" ry="12.5" stroke="#000000" stroke-opacity="0"/>
+  <ellipse cx="329.5" cy="272.5" fill="#000000" id="svg_20" rx="14.5" ry="12.5" stroke="#000000" stroke-opacity="0"/>
+  <ellipse cx="289.5" cy="183.5" fill="#000000" id="svg_21" rx="14.5" ry="12.5" stroke="#000000" stroke-opacity="0"/>
+  <ellipse cx="336.5" cy="229.5" fill="#000000" id="svg_22" rx="14.5" ry="12.5" stroke="#000000" stroke-opacity="0"/>
+  <ellipse cx="228.5" cy="396.5" fill="#ffffff" id="svg_23" rx="14" ry="13" stroke="#000000" stroke-opacity="0"/>
+  <ellipse cx="408.5" cy="210.5" fill="#ffffff" id="svg_24" rx="14" ry="13" stroke="#000000" stroke-opacity="0"/>
+  <ellipse cx="215.5" cy="257.5" fill="#ffffff" id="svg_25" rx="14" ry="13" stroke="#000000" stroke-opacity="0" transform="matrix(1 0 0 1 0 0)"/>
+  <ellipse cx="365.5" cy="419.5" fill="#ffffff" id="svg_26" rx="14" ry="13" stroke="#000000" stroke-opacity="0" transform="matrix(1 0 0 1 0 0)"/>
+  <ellipse cx="210.5" cy="304.5" fill="#ffffff" id="svg_27" rx="14" ry="13" stroke="#000000" stroke-opacity="0" transform="matrix(1 0 0 1 0 0)"/>
+  <ellipse cx="392.5" cy="248.5" fill="#000000" id="svg_28" rx="14.5" ry="12.5" stroke="#000000" stroke-opacity="0" transform="matrix(1 0 0 1 0 0)"/>
+  <ellipse cx="37.5" cy="262.5" fill="#000000" id="svg_29" rx="14.5" ry="12.5" stroke="#000000" stroke-opacity="0" transform="matrix(1 0 0 1 0 0)"/>
+  <ellipse cx="376.5" cy="312.5" fill="#000000" id="svg_30" rx="14.5" ry="12.5" stroke="#000000" stroke-opacity="0" transform="matrix(1 0 0 1 0 0)"/>
+  <ellipse cx="134.5" cy="251.5" fill="#000000" id="svg_35" rx="14.5" ry="12.5" stroke="#000000" stroke-opacity="0" transform="matrix(1 0 0 1 0 0)"/>
+  <ellipse cx="476.5" cy="181.5" fill="#000000" id="svg_36" rx="14.5" ry="12.5" stroke="#000000" stroke-opacity="0" transform="matrix(1 0 0 1 0 0)"/>
+  <ellipse cx="288.5" cy="258.5" fill="#000000" id="svg_37" rx="14.5" ry="12.5" stroke="#000000" stroke-opacity="0" transform="matrix(1 0 0 1 0 0)"/>
+  <ellipse cx="236.5" cy="345.5" fill="#000000" id="svg_38" rx="14.5" ry="12.5" stroke="#000000" stroke-opacity="0" transform="matrix(1 0 0 1 0 0)"/>
+  <ellipse cx="203.5" cy="372.5" fill="#000000" id="svg_39" rx="14.5" ry="12.5" stroke="#000000" stroke-opacity="0" transform="matrix(1 0 0 1 0 0)"/>
+  <ellipse cx="379.5" cy="363.5" fill="#000000" id="svg_40" rx="14.5" ry="12.5" stroke="#000000" stroke-opacity="0" transform="matrix(1 0 0 1 0 0)"/>
+  <ellipse cx="340.5" cy="389.5" fill="#ffffff" id="svg_41" rx="14" ry="13" stroke="#000000" stroke-opacity="0"/>
+  <ellipse cx="17.5" cy="202.5" fill="#ffffff" id="svg_42" rx="14" ry="13" stroke="#000000" stroke-opacity="0" transform="matrix(1 0 0 1 0 0)"/>
+  <ellipse cx="153.5" cy="194.5" fill="#ffffff" id="svg_43" rx="14" ry="13" stroke="#000000" stroke-opacity="0" transform="matrix(1 0 0 1 0 0)"/>
+ </g>
+</svg>

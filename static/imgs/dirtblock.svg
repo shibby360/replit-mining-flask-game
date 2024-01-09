@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <g class="layer">
+  <title>Layer 1</title>
+  <ellipse cx="83.5" cy="85" fill="#7f3f00" id="svg_1" rx="67" ry="67" stroke="#ffffff" stroke-opacity="0.01" transform="matrix(1 0 0 1 0 0)"/>
+  <ellipse cx="246.5" cy="59" fill="#7f3f00" id="svg_2" rx="60" ry="44" stroke="#ffffff" stroke-opacity="0.01" transform="matrix(1 0 0 1 0 0)"/>
+  <ellipse cx="134.5" cy="196" fill="#7f3f00" id="svg_3" rx="73" ry="35" stroke="#ffffff" stroke-opacity="0.01" transform="matrix(1 0 0 1 0 0)"/>
+  <ellipse cx="408.5" cy="90" fill="#7f3f00" id="svg_4" rx="86" ry="55" stroke="#ffffff" stroke-opacity="0.01" transform="matrix(1 0 0 1 0 0)"/>
+  <ellipse cx="381.5" cy="302" fill="#7f3f00" id="svg_5" rx="48" ry="90" stroke="#ffffff" stroke-opacity="0.01"/>
+  <ellipse cx="153" cy="289" fill="#7f3f00" id="svg_6" rx="129.5" ry="55" stroke="#ffffff" stroke-opacity="0.01" transform="matrix(1 0 0 1 0 0)"/>
+  <ellipse cx="293.5" cy="208" fill="#7f3f00" id="svg_8" rx="29.5" ry="40" stroke="#ffffff" stroke-opacity="0.01"/>
+  <ellipse cx="229.5" cy="149" fill="#7f3f00" id="svg_9" rx="29.5" ry="40" stroke="#ffffff" stroke-opacity="0.01" transform="matrix(1 0 0 1 0 0)"/>
+  <ellipse cx="53.5" cy="383.5" fill="#7f3f00" id="svg_10" rx="29.5" ry="40" stroke="#ffffff" stroke-opacity="0.01"/>
+  <ellipse cx="367.5" cy="447" fill="#7f3f00" id="svg_11" rx="110" ry="39" stroke="#ffffff" stroke-opacity="0.01"/>
+  <ellipse cx="134" cy="460" fill="#7f3f00" id="svg_12" rx="94.5" ry="22" stroke="#ffffff" stroke-opacity="0.01"/>
+  <ellipse cx="212" cy="380" fill="#7f3f00" id="svg_13" rx="119.5" ry="33" stroke="#ffffff" stroke-opacity="0.01"/>
+  <ellipse cx="459.5" cy="282" fill="#7f3f00" id="svg_14" rx="25" ry="116" stroke="#ffffff" stroke-opacity="0.01"/>
+ </g>
+</svg>
