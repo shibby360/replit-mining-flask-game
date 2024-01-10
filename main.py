@@ -1,9 +1,12 @@
 from flask import Flask, render_template, redirect, request
-from replit import db
+from bson.objectid import ObjectId
+import pymongo
 import json
 import idgen
 
-users = json.loads(db.get_raw('users'))
+connectionstring = os.environ.get('MONGO_URI')
+cluster = pymongo.MongoClient(connectionstring)
+database = cluster['replit-mining-flask-game']
 print(users)
 def save():
   db['users'] = users
