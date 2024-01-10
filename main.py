@@ -3,11 +3,12 @@ from bson.objectid import ObjectId
 import pymongo
 import json
 import idgen
+import os
 
 connectionstring = os.environ.get('MONGO_URI')
 cluster = pymongo.MongoClient(connectionstring)
 database = cluster['replit-mining-flask-game']
-print(users)
+users = database['users']
 def save():
   db['users'] = users
 def addattr(attr, val):
@@ -94,4 +95,5 @@ def user(uid):
   infotogive = infotogive.copy()
   del infotogive['password']
   return render_template('user.html', udata=infotogive)
-app.run(host='0.0.0.0', port=8080)
+
+app.run()
