@@ -9,6 +9,7 @@ connectionstring = os.environ.get('MONGO_URI')
 cluster = pymongo.MongoClient(connectionstring)
 database = cluster['replit-mining-flask-game']
 users = database['users']
+print(users)
 def save():
   db['users'] = users
 def addattr(attr, val):
