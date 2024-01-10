@@ -58,6 +58,7 @@ def signup():
     infotogive = users[uid]
     infotogive = infotogive.copy()
     del infotogive['password']
+    del infotogive['_id']
     return {uid:infotogive}
   else:
     return render_template('signup.html')
@@ -75,6 +76,8 @@ def login():
         infotogive = users[unms[username]]
         infotogive = infotogive.copy()
         del infotogive['password']
+        del infotogive['_id']
+        print(infotogive)
         return {unms[username]:infotogive}
     return 'incorrect'
   else:
@@ -93,6 +96,7 @@ def saveroute():
   save()
   infotogive = users[uid].copy()
   del infotogive['password']
+  del infotogive['_id']
   return infotogive
 
 @app.route('/user/<uid>')
@@ -100,6 +104,7 @@ def user(uid):
   infotogive = users[uid]
   infotogive = infotogive.copy()
   del infotogive['password']
+  del infotogive['_id']
   return render_template('user.html', udata=infotogive)
 
 app.run()
