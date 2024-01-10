@@ -20,4 +20,4 @@ function signup(e) {
   })
 }
 $('#signupbtn').on('click', signup)
-$(document).on('keypress', login)
+$(document).on('keypress', signup)
