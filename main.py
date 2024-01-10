@@ -2,7 +2,6 @@ from flask import Flask, render_template, redirect, request
 from bson.objectid import ObjectId
 import pymongo
 import json
-import idgen
 import os
 if os.path.isfile('mongouri.txt'):
   connectionstring = open('mongouri.txt').read().strip()
