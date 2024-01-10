@@ -16,7 +16,11 @@ for i in userscol.find():
   users[str(i['_id'])] = i
 print(users)
 def save():
-  db['users'] = users
+  for i in users:
+    userinfo = users[i]
+    userinfo = userinfo.copy()
+    del userinfo['_id']
+    userscol.update_one({'_id':ObjectId(i)}, {"$set":users[i]})
 def addattr(attr, val):
   for user in users:
     users[user][attr] = val
@@ -41,7 +45,6 @@ def signup():
     if username in unms:
       return 'Username already exists'
     password = request.form['password']
-    uid = idgen.gen()
     userdata = {
       "username":username,
       "password":password,
@@ -53,13 +56,12 @@ def signup():
       "map":[],
       "meat":{"cow":0,"panda":0}
     }
-    users[uid] = userdata
-    save()
-    infotogive = users[uid]
+    userscol.insert_one(userdata)
+    infotogive = userscol.find_one(userdata)
     infotogive = infotogive.copy()
     del infotogive['password']
     del infotogive['_id']
-    return {uid:infotogive}
+    return {str(infotogive['_id']):infotogive}
   else:
     return render_template('signup.html')
 
@@ -77,7 +79,6 @@ def login():
         infotogive = infotogive.copy()
         del infotogive['password']
         del infotogive['_id']
-        print(infotogive)
         return {unms[username]:infotogive}
     return 'incorrect'
   else:
