@@ -13,7 +13,8 @@ database = cluster['replit-mining-flask-game']
 userscol = database['users']
 users = {}
 for i in userscol.find():
-  print(i)
+  users[str(i['_id'])] = i
+print(users)
 def save():
   db['users'] = users
 def addattr(attr, val):
