@@ -4,8 +4,10 @@ import pymongo
 import json
 import idgen
 import os
-
-connectionstring = os.environ.get('MONGO_URI')
+if os.path.isfile('mongouri.txt'):
+  connectionstring = open('mongouri.txt').read().strip()
+else:
+  connectionstring = os.environ.get('MONGO_URI')
 cluster = pymongo.MongoClient(connectionstring)
 database = cluster['replit-mining-flask-game']
 userscol = database['users']
