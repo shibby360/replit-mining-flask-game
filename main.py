@@ -106,5 +106,5 @@ def user(uid):
   del infotogive['password']
   del infotogive['_id']
   return render_template('user.html', udata=infotogive)
-
-app.run()
+if __name__ == '__main__:
+  app.run()
