@@ -1,2 +1,6 @@
 __pycache__/
 mongouri.txt
+.upm/
+poetry.lick
+pyproject.toml
+.replit
