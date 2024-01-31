@@ -1,4 +1,4 @@
-var size = 150
+var size = 300
 var smallsize = 30
 var gbord = $('#gameboard')
 var gborddom = document.getElementById('gameboard')
